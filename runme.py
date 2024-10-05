@@ -56,13 +56,13 @@ def main(args):
         division: Integer number of cell divisions
         death: Integer number of cell deaths
     """
-    a = 1e-2 * np.ones((N_cells))
+    a = 1e-2 * np.ones((N_cells)) 
     k = 1e-2 * np.ones((N_cells))
     l0 = 1e-2
     gamma = 1.0 * np.ones((N_cells))
     # Number of divisions and deaths
-    division = 0
-    death = 0
+    division = 600
+    death = 70
     """
         Fixed parameters for the simulation
         dt: Time step
